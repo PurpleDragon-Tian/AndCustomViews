@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AndCustomViews</string>
+    <string name="label_hint_inputable">多个标签使用换行符分割</string>
+    <string name="inputable_label_activity_label">InputableLabel</string>
+    <string name="main_page_btn_inputable_label_txt">InputableLabel</string>
 </resources>

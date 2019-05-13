@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".activity.label.InputableLabelActivity"
+            android:label="@string/inputable_label_activity_label"/>
     </application>
 
 </manifest>

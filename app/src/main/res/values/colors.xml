@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="inputable_label_stroke_color">#ff8833</color>
+    <color name="inputable_label_selected_solid_color">#ff8833</color>
+    <color name="inputable_label_unselected_solid_color">#ffffff</color>
 </resources>

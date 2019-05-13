@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputableLabelLayout">
+        <attr name="flexDividerDrawable" format="reference"  />
+        <attr name="labelbg" format="reference" />
+        <attr name="inputHint" format="string" />
+        <attr name="cursorDrawable" format="reference" />
+        <!--<attr name="zoomTime" format="integer" />-->
+    </declare-styleable>
+
+</resources>
