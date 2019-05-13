@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvInputableLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/main_page_btn_margin"
-        android:onClick="InputableLabel"
         android:text="@string/main_page_btn_inputable_label_txt"
         android:textSize="@dimen/main_page_btn_txt_size" />
 
