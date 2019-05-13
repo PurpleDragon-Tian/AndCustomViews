@@ -206,7 +206,8 @@ public class InputableLabelLayout extends FlexboxLayout {
         label.setMaxEms(7);
         label.setSelected(false);
         label.setSingleLine(true);
-
+        //这里复制新建一个Drawable对象，否则mLabelDrawble的状态会是最后一个标签的状态，这样在软键盘弹出等触发ui重绘的情况下，会导致背景错乱。
+        //所以要保证每一个标签都拥有独立的Drawable
         Drawable bg = getNewDrawable(mLabelDrawble);
         label.setBackground(bg);
 //        label.setBackgroundDrawable(mContext.getResources().getDrawable(R.drawable.bg_custom_label));
